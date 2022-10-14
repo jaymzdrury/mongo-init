@@ -6,7 +6,10 @@
 
 `npm i` for node_modules
 <br />
-`.env` API= "API Key..."
+`.env` 
+```JavaScript
+URI= "//API Key..."
+```
 ***
 
 _dotenv_
