@@ -6,9 +6,9 @@
 
 `npm i` for node_modules
 <br />
-`.env` 
+`.env` file: 
 ```JavaScript
-URI= "//API Key..."
+URI= //"API Key..."
 ```
 ***
 
