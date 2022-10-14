@@ -12,7 +12,7 @@
 _dotenv_
 
 `dotenv` accepts env variables
-config/config.ts
+(config/config.ts)
 
 ```JavaScript
 import * as dotenv from 'dotenv'
