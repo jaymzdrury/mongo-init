@@ -4,7 +4,8 @@
 ### Setup
 
 `npm i` for node_modules
-`.env` API= "Enter API Key"
+<br />
+`.env` API= "API Key..."
 ***
 
 _dotenv_
