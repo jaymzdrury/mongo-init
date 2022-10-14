@@ -11,7 +11,7 @@ _dotenv_
 
 `dotenv` accepts env variables
 config/config.ts
-***
+
 ```JavaScript
 import * as dotenv from 'dotenv'
 ```
@@ -19,7 +19,7 @@ import * as dotenv from 'dotenv'
 _cookie-parser_
 
 `cookie-parser` sends user information to browser
-***
+
 ```JavaScript
 const cookieParser = require('cookie-parser')
 ```
