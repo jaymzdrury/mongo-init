@@ -1,5 +1,5 @@
 ## Mongo, Express, and Node Set Up
-![IMG]("https://25y35xxcueanov2s108puszp-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/ext-553.png")
+![Alt-Text]("https://img.icons8.com/color/480/mongodb.png")
 
 ### Setup
 
