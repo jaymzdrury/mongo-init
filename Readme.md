@@ -5,11 +5,13 @@
 ### Setup
 
 `npm i` for node_modules
-<br />
+
 `.env` file: 
 ```JavaScript
 URI= "Mongo Uri..."
 ```
+
+`npm run test index.test.ts` for testing
 ***
 
 _dotenv_
