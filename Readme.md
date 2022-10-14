@@ -8,7 +8,7 @@
 <br />
 `.env` file: 
 ```JavaScript
-URI= "{/*API Key...*/}"
+URI= //"API Key..."
 ```
 ***
 
