@@ -6,6 +6,8 @@
 
 `npm i` for node_modules
 
+`npx tsc --init` to manually install `tsconfig.json`
+
 `.env` file: 
 ```JavaScript
 URI= "Mongo Uri..."
