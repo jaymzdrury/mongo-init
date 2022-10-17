@@ -11,6 +11,7 @@
 `.env` file: 
 ```JavaScript
 URI= "Mongo Uri..."
+ORIGIN= ["Website URL..."]
 ```
 
 `npm run test index.test.ts` for testing
