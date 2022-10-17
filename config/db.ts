@@ -17,4 +17,4 @@ const connectDB = () => {
     }
 }
 
-module.exports = connectDB
+export = connectDB

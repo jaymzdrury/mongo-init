@@ -1,17 +1,19 @@
 import express, {Application} from 'express'
 import { IncomingMessage, Server, ServerResponse } from 'http'
-const connectDB = require('./config/db')
-const config = require('./config/config')
-const cors = require('cors')
-const cookieParser = require('cookie-parser')
+import connectDB from './config/db'
+import config from './config/config'
+import cors, {CorsOptions} from 'cors'
+import cookieParser from 'cookie-parser'
 
 config.config()
 const app: Application = express();
 const port: string | number = process.env.PORT || 5000;
 connectDB()
 
-app.use(cors());
+const options: CorsOptions = {origin: process.env.ORIGIN}
+app.use(cors(options));
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser())
 
 const server: Server<typeof IncomingMessage, typeof ServerResponse> = app.listen(port, () => {
